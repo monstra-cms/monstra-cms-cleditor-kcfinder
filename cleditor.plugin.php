@@ -22,7 +22,6 @@
 
 
     // Add hooks
-    /*Action::add('admin_editor', 'Cleditor::editor', 10, array());  */  
     Action::add('admin_header', 'Cleditor::headers');
 
 
@@ -32,10 +31,11 @@
          * Set editor headers
          */
         public static function headers() {
-            echo '
-          <link rel="stylesheet" type="text/css" href="'.Option::get('siteurl').'plugins/cleditor/cleditor/jquery.cleditor.css" />
-          <script type="text/javascript" src="'.Option::get('siteurl').'plugins/cleditor/cleditor/jquery.cleditor.min.js"></script>
-          <script type="text/javascript" src="'.Option::get('siteurl').'plugins/cleditor/cleditor/jquery.cleditor.plugins.js"></script>    
+            echo '            
+          <link rel="stylesheet" type="text/css" href="'.Option::get('siteurl').'/plugins/cleditor/cleditor/jquery.cleditor.css" />
+          <script type="text/javascript" src="'.Option::get('siteurl').'/plugins/cleditor/cleditor/jquery-migrate-1.2.1.js"></script>
+          <script type="text/javascript" src="'.Option::get('siteurl').'/plugins/cleditor/cleditor/jquery.cleditor.min.js"></script>
+          <script type="text/javascript" src="'.Option::get('siteurl').'/plugins/cleditor/cleditor/jquery.cleditor.plugins.js"></script>    
           <script type="text/javascript">
             // CLEditor plusimage Plugin v1.0
             (function($) {
@@ -127,7 +127,7 @@
                   }
               };
 
-              window.open("'.Option::get('siteurl').'plugins/cleditor/kcfinder/browse.php?type=image&lang='.Option::get('language').'", "kcfinder_textbox",
+              window.open("'.Option::get('siteurl').'/plugins/cleditor/kcfinder/browse.php?type=image&lang='.Option::get('language').'", "kcfinder_textbox",
                   "status=0, toolbar=0, location=0, menubar=0, directories=0, " +
                   "resizable=0, scrollbars=0, width=800, height=600"
               );
