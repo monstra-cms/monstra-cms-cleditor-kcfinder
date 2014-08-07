@@ -5,7 +5,7 @@
     <plugin_priority>15</plugin_priority>
     <plugin_name>Cleditor</plugin_name>
     <plugin_description>Cross browser, extensible, WYSIWYG HTML editor http://premiumsoftware.net/cleditor/</plugin_description>
-    <plugin_version>1.0.0</plugin_version>
+    <plugin_version>1.0.1</plugin_version>
     <plugin_author>Awilum</plugin_author>
     <plugin_author_uri>http://monstra.org/</plugin_author_uri>
 </root>

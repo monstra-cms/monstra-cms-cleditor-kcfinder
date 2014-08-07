@@ -7,7 +7,7 @@
      *  @subpackage Plugins
      *	@author Romanenko Sergey / Awilum
      *	@copyright 2012 Romanenko Sergey / Awilum
-     *	@version 1.0.0
+     *	@version 1.0.1
      *
      */
 
@@ -16,7 +16,7 @@
     Plugin::register( __FILE__,                    
                     __('Cleditor'),
                     __('Cross browser, extensible, WYSIWYG HTML editor http://premiumsoftware.net/cleditor/'),  
-                    '1.0.0',
+                    '1.0.1',
                     'Awilum',                 
                     'http://monstra.org/');
 
