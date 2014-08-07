@@ -1,0 +1,2 @@
+monstra-cms-cleditor-kcfinder
+=============================
